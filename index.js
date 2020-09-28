@@ -1,6 +1,8 @@
-#!/usr/bin/env node
+const path = require('path')
 
-require('dotenv').config()
+// When the node process is executed in the context of wacs.exe, process.cwd() returns the directory where wacs.exe is
+// located and dotenv's default path is `path.resolve(process.cwd(), '.env')`. We force it here.
+require('dotenv').config({ path: path.resolve(__dirname, '.env') })
 
 const createChallenge = require('./lib/create-challenge')
 const deleteChallenge = require('./lib/delete-challenge')
