@@ -1,6 +1,6 @@
 {
   "name": "win-acme-dns-ovh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Scripts for Win-Acme to allow DNS validation on OVH.",
   "main": "index.js",
   "scripts": {
