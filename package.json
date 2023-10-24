@@ -27,7 +27,10 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "ovh": "^2.0.3",
-    "parse-domain": "^5.0.0",
-    "standard": "^17.0.0"
+    "parse-domain": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-standard": "^17.1.0"
   }
 }
