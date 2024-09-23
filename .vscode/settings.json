@@ -1,4 +1,17 @@
 {
-    "standard.autoFixOnSave": true,
-    "standard.engine": "standard"
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "prettier.enable": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
 }

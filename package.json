@@ -26,6 +26,7 @@
   "homepage": "https://github.com/mcdado/win-acme-dns-ovh#readme",
   "dependencies": {
     "@ovhcloud/node-ovh": "^3.0.0",
+    "debug": "^4.3.7",
     "dotenv": "^16.0.3",
     "parse-domain": "^5.0.0"
   },

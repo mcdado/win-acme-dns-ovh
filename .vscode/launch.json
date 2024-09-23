@@ -11,13 +11,18 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
+            "outputCapture": "std",
+            "env": {
+                "DEBUG": "win-acme-dns-ovh:*"
+            },
+            "internalConsoleOptions": "openOnSessionStart",
             "program": "${workspaceFolder}/index.js",
             "args": [
-              "create",
-              "test.3dprint.sm",
-              "_acme-challenge.test.3dprint.sm",
-              "DGyRejmCefe7v4NfDGDKfA" // example copied from https://www.win-acme.com/reference/plugins/validation/dns/script
-          ]
+                "create",
+                "test.3dprint.sm",
+                "_acme-challenge.test.3dprint.sm",
+                "DGyRejmCefe7v4NfDGDKfA" // example copied from https://www.win-acme.com/reference/plugins/validation/dns/script
+            ]
         },
         {
             "type": "node",
@@ -26,13 +31,18 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
+            "outputCapture": "std",
+            "env": {
+                "DEBUG": "win-acme-dns-ovh:*"
+            },
+            "internalConsoleOptions": "openOnSessionStart",
             "program": "${workspaceFolder}/index.js",
             "args": [
-              "delete",
-              "test.3dprint.sm",
-              "_acme-challenge.test.3dprint.sm",
-              "DGyRejmCefe7v4NfDGDKfA" // example copied from https://www.win-acme.com/reference/plugins/validation/dns/script
-          ]
+                "delete",
+                "test.3dprint.sm",
+                "_acme-challenge.test.3dprint.sm",
+                "DGyRejmCefe7v4NfDGDKfA" // example copied from https://www.win-acme.com/reference/plugins/validation/dns/script
+            ]
         }
     ]
 }
